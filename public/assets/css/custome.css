@@ -1,0 +1,303 @@
+.table-vcenter td span {
+  float: right;
+  border: 2px solid #e8e8e8;
+  width: 34px;
+  height: 21px;
+}
+.table-vcenter td span.color-1 {
+  background: #278639;
+}
+.table-vcenter td span.color-2 {
+  background: #ff9a0a;
+}
+.table-vcenter td span.color-3 {
+  background: #ffda08;
+}
+.table-vcenter td span.color-4 {
+  background: #ae4cdc;
+}
+.table-vcenter td span.color-5 {
+  background: #65c6bb;
+}
+.table-vcenter td span.color-6 {
+  background: #57bcff;
+}
+.table-vcenter td span.color-7 {
+  background: #9693ff;
+}
+.table-vcenter td span.color-8 {
+  background: #e50000;
+}
+.table-vcenter td a.btn-edit {
+  float: right;
+  width: 44px;
+  height: 30px;
+  border: 2px solid #e5e5e5;
+  text-align: center;
+  color: #838594;
+  border-radius: 2px;
+}
+.table-vcenter td input[type="checkbox"], .table thead th input[type="checkbox"] {
+  margin-right: 10px;
+}
+/********************************NEW STYLE START*********************************/
+.management-section {
+  float: left;
+  width: 100%;
+  background: #f7f7f7;
+}
+.management-section .top-row {
+  float: left;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.management-section .top-row .round-thumb {
+  float: left;
+  width: 58px;
+  height: 59px;
+  border-radius: 100%;
+  overflow: hidden;
+  margin: 0 15px 0 0;
+}
+.management-section .top-row .text-box {
+  overflow: hidden;
+}
+.management-section .top-row .text-box strong.name {
+  float: left;
+  color: #4d4d4d;
+  font-size: 28px;
+  line-height: 58px;
+  padding: 0 13px 0 0;
+}
+.management-section .top-row .flag-thumb {
+  float: left;
+  width: 39px;
+  height: 39px;
+  border-radius: 100%;
+  overflow: hidden;
+  margin: 10px 15px 0 0;
+}
+.management-section .top-row .flag-thumb img {
+  display: block;
+  width: 100%;
+  border-radius: 100%;
+}
+.management-section .top-row .round-thumb img {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+}
+.management-section .top-row .text-box a.btn-view {
+  float: left;
+  border-radius: 7px;
+  color: #fff;
+  text-decoration: none;
+  padding: 6px 8px;
+  background: #009245;
+  font-size: 16px;
+  line-height: 16px;
+  margin: 16px 0 0 0;
+}
+.management-section .top-row .text-box a.btn-view img {
+  float: left;
+  padding: 0 6px 0 0;
+}
+.management-section .box {
+  float: left;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  padding: 22px 15px;
+  box-sizing: border-box;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+.management-section .box .top-sec {
+  float: left;
+  width: 100%;
+}
+.management-section .box .round-thumb {
+  float: right;
+  border: 1px solid #f2f2f2;
+  border-radius: 100%;
+  overflow: hidden;
+  width: 55px;
+  height: 55px;
+  margin: 0 0 0 -10px;
+}
+.management-section .box strong.title {
+  float: left;
+  color: #333333;
+  font-size: 24px;
+}
+.management-section .box span.num {
+  float: left;
+  color: #ccc;
+  font-size: 20px;
+  text-align: left;
+}
+.management-section .box .round-thumb img {
+  display: block;
+  width: 100%;
+  border-radius: 100%;
+}
+.management-section .box .btm-row {
+  float: left;
+  width: 100%;
+  padding: 24px 0 0 0;
+}
+.management-section .box .btm-row a.link {
+  float: left;
+  text-decoration: none;
+  color: #808080;
+  font-size: 23px;
+  line-height: 30px;
+  padding: 0 20px 0 0;
+}
+.management-section .box .btm-row a.link img {
+  padding: 0 8px 0 0;
+  float: left;
+}
+.management-section .box .btm-row a.mnt {
+  float: right;
+  text-decoration: none;
+  color: #808080;
+  font-size: 23px;
+  line-height: 30px;
+  padding: 0;
+}
+.management-section .box .btm-row a.mnt img {
+  padding: 0 8px 0 0;
+  float: left;
+}
+.pending-row {
+  float: left;
+  width: 100%;
+  padding: 27px 20px;
+  box-sizing: border-box;
+  background: #e1e0e3;
+  margin-bottom: 25px;
+  border-radius: 15px;
+}
+.pending-row strong.title {
+  display: block;
+  text-align: left;
+  color: #4d4d4d;
+  font-size: 28px;
+  padding: 0 0 10px 0;
+}
+.management-section .block.block-bordered {
+  overflow: hidden;
+}
+.management-section .box .top-sec a.mnt {
+  float: right;
+  color: #808080;
+  font-size: 23px;
+}
+.management-section .box .top-sec a.mnt img {
+  float: left;
+  padding-right: 8px;
+}
+.pending-row .box strong.title {
+  position: relative;
+}
+.pending-row .box strong.title.color-1:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  background: #2e3192;
+  width: 68px;
+  height: 5px;
+  border-radius: 3px;
+}
+.pending-row .box strong.title.color-2:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  background: #006837;
+  width: 68px;
+  height: 5px;
+  border-radius: 3px;
+}
+.pending-row .box strong.title.color-3:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  background: #9e005d;
+  width: 68px;
+  height: 5px;
+  border-radius: 3px;
+}
+.management-section .pending-row .box .btm-row a.link {
+  padding-top: 15px;
+}
+.tab-row {
+  float: left;
+  width: 100%;
+}
+.tab-row .nav-tabs-block .nav-item.show .nav-link, .tab-row .nav-tabs-block .nav-link.active {
+  color: #808080;
+  position: relative;
+}
+.tab-row .nav-tabs-block .nav-link.active:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 61px;
+  height: 5px;
+  background: #2e3192;
+}
+.tab-row .nav-tabs-block .nav-item {
+  padding: 0 20px;
+}
+.tab-row .nav-tabs-block .nav-link {
+  font-size: 27px;
+  color: #333;
+  padding: 15px 0;
+}
+.tab-content-row {
+  float: left;
+  width: 100%;
+  background: #f7f7f7;
+}
+.tab-content-inner {
+  float: left;
+  width: 100%;
+  background: #22b573;
+  padding: 35px 0;
+  margin-bottom: 80px;
+}
+.tab-content-row ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.tab-content-row ul li {
+  float: left;
+  padding: 0 60px;
+  border-left: 2px solid #fff;
+}
+.tab-content-row ul li:first-child {
+  border: 0;
+}
+.tab-content-row ul li strong.title {
+  display: block;
+  font-size: 27px;
+  line-height: 27px;
+  color: #fff;
+  padding: 0 0 10px 0;
+}
+.tab-content-row ul li strong.number {
+  display: block;
+  font-size: 62px;
+  color: #fff;
+  line-height: 60px;
+}
+.tab-content-row ul li strong.number img {
+  padding: 0 10px 0 0;
+}
+/********************************NEW STYLE END*********************************/

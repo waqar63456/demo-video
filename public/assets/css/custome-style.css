@@ -1,0 +1,10 @@
+.asset-list{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.asset-list li{
+  float: left;
+  width: 50%;
+  padding: 0 0 10px 0;
+}
